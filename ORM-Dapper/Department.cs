@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ORM_Dapper
 {
-    internal class Department
+    public class Department
     {
+        public int DepartmentID { get; set; }
+        public string Name { get; set; }
     }
 }
