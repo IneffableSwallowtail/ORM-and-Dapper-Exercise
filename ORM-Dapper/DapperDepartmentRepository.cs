@@ -9,7 +9,7 @@ using Dapper;
 
 namespace ORM_Dapper
 {
-    public class DapperDepartmentRepository
+    public class DapperDepartmentRepository : IDepartmentRepositoryInterface
     {
         private readonly IDbConnection _connection;
         //Constructor

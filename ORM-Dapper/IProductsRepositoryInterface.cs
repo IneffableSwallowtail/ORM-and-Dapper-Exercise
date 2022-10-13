@@ -8,13 +8,7 @@ namespace ORM_Dapper
 {
     public interface IProductsRepositoryInterface
     {
-        IEnumerable<Product> GetAllProducts()
-        {
-            throw new NotImplementedException();
-        }
-        void CreateProduct(string name, double price, int categoryID)
-        {
-            throw new NotImplementedException();
-        }
+        public IEnumerable<Products> GetAllProducts();
+        public void CreateProduct(string name, double price, int categoryID);
     }
 }
